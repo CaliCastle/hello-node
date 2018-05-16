@@ -1,10 +1,12 @@
 {
   "name": "hello-node",
-  "version": "0.0.0",
+  "description": "Hello Node, first Azure application using Node.js",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
+  "author": "Cali Castle",
   "dependencies": {
     "express": "~4.16.0",
     "vue": "^2.5.16"
